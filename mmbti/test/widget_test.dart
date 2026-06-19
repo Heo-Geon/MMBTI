@@ -1,30 +1,28 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:mmbti/main.dart';
+import 'package:mmbti/data/models/question.dart';
+import 'package:mmbti/features/result/result_notifier.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  group('mbtiTypeFromScores', () {
+    test('양수는 첫 극, 음수는 둘째 극으로 판정한다', () {
+      final type = mbtiTypeFromScores({
+        MbtiAxis.ei: 4,
+        MbtiAxis.sn: -2,
+        MbtiAxis.tf: 6,
+        MbtiAxis.jp: -6,
+      });
+      expect(type, 'ENTP');
+    });
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    test('0점은 첫 극으로 tie-break 한다', () {
+      final type = mbtiTypeFromScores({
+        MbtiAxis.ei: 0,
+        MbtiAxis.sn: 0,
+        MbtiAxis.tf: 0,
+        MbtiAxis.jp: 0,
+      });
+      expect(type, 'ESTJ');
+    });
   });
 }

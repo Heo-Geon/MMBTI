@@ -1,0 +1,130 @@
+{
+  "INTJ": {
+    "title": "전략가",
+    "theme": { "ramp": "purple", "fill": "#EEEDFE", "accent": "#3C3489", "icon": "military_tech" },
+    "desc": "판을 읽고 설계하는 냉정한 솔로 플레이어",
+    "image": "assets/images/jobs/bishop.png",
+    "primary": { "job": "비숍", "desc": "판을 읽고 설계하는 전략 서포터" },
+    "alternatives": ["루미너스", "메르세데스"]
+  },
+  "INTP": {
+    "title": "이론가",
+    "theme": { "ramp": "purple", "fill": "#EEEDFE", "accent": "#3C3489", "icon": "psychology" },
+    "desc": "메커니즘을 파고들어 최적해를 찾는 연구가",
+    "image": "assets/images/jobs/kinesis.png",
+    "primary": { "job": "키네시스", "desc": "독창적인 메커니즘을 연구하는 이론가" },
+    "alternatives": ["배틀메이지", "제논"]
+  },
+  "ENTJ": {
+    "title": "지휘관",
+    "theme": { "ramp": "blue", "fill": "#E6F1FB", "accent": "#0C447C", "icon": "stars" },
+    "desc": "판을 주도하며 파티를 이끄는 리더",
+    "image": "assets/images/jobs/archmage.png",
+    "primary": { "job": "아크메이지", "desc": "강력한 광역기로 판을 지배하는 지휘관" },
+    "alternatives": ["카이저", "아델"]
+  },
+  "ENTP": {
+    "title": "변칙가",
+    "theme": { "ramp": "blue", "fill": "#E6F1FB", "accent": "#0C447C", "icon": "bolt" },
+    "desc": "예측불허의 변수로 판을 흔드는 트릭스터",
+    "image": "assets/images/jobs/phantom.png",
+    "primary": { "job": "팬텀", "desc": "상대의 기술을 훔쳐 쓰는 변칙의 대가" },
+    "alternatives": ["카데나", "호영"]
+  },
+  "INFJ": {
+    "title": "예언자",
+    "theme": { "ramp": "teal", "fill": "#E1F5EE", "accent": "#085041", "icon": "auto_awesome" },
+    "desc": "신념을 품고 빛으로 길을 밝히는 조용한 인도자",
+    "image": "assets/images/jobs/luminous.png",
+    "primary": { "job": "루미너스", "desc": "빛과 어둠을 다루는 신념의 예언자" },
+    "alternatives": ["일리움", "칼리"]
+  },
+  "INFP": {
+    "title": "몽상가",
+    "theme": { "ramp": "teal", "fill": "#E1F5EE", "accent": "#085041", "icon": "favorite" },
+    "desc": "자신만의 세계와 감성을 노래하는 이상주의자",
+    "image": "assets/images/jobs/angelicbuster.png",
+    "primary": { "job": "엔젤릭버스터", "desc": "꿈을 향해 노래하는 감성의 몽상가" },
+    "alternatives": ["라라", "키네시스"]
+  },
+  "ENFJ": {
+    "title": "선도자",
+    "theme": { "ramp": "pink", "fill": "#FBEAF0", "accent": "#72243E", "icon": "volunteer_activism" },
+    "desc": "동료를 보살피며 함께 나아가는 따뜻한 리더",
+    "image": "assets/images/jobs/bishop.png",
+    "primary": { "job": "비숍", "desc": "파티를 살리고 이끄는 따뜻한 선도자" },
+    "alternatives": ["패스파인더", "아크"]
+  },
+  "ENFP": {
+    "title": "활동가",
+    "theme": { "ramp": "pink", "fill": "#FBEAF0", "accent": "#72243E", "icon": "celebration" },
+    "desc": "에너지 넘치게 판을 즐기는 자유로운 영혼",
+    "image": "assets/images/jobs/hoyoung.png",
+    "primary": { "job": "호영", "desc": "화려하고 변화무쌍한 자유로운 활동가" },
+    "alternatives": ["카인", "엔젤릭버스터"]
+  },
+  "ISTJ": {
+    "title": "현실주의자",
+    "theme": { "ramp": "gray", "fill": "#F1EFE8", "accent": "#444441", "icon": "verified" },
+    "desc": "묵묵히 정석을 쌓아 올리는 성실한 일꾼",
+    "image": "assets/images/jobs/bowmaster.png",
+    "primary": { "job": "보우마스터", "desc": "꾸준함으로 한 발씩 쌓는 현실주의자" },
+    "alternatives": ["나이트로드", "팔라딘"]
+  },
+  "ISFJ": {
+    "title": "수호자",
+    "theme": { "ramp": "gray", "fill": "#F1EFE8", "accent": "#444441", "icon": "shield" },
+    "desc": "동료를 지키며 든든히 버티는 방패",
+    "image": "assets/images/jobs/paladin.png",
+    "primary": { "job": "팔라딘", "desc": "파티를 끝까지 지키는 든든한 수호자" },
+    "alternatives": ["비숍", "데몬슬레이어"]
+  },
+  "ESTJ": {
+    "title": "경영자",
+    "theme": { "ramp": "red", "fill": "#FCEBEB", "accent": "#791F1F", "icon": "gavel" },
+    "desc": "원칙과 효율로 판을 정리하는 실행가",
+    "image": "assets/images/jobs/hero.png",
+    "primary": { "job": "히어로", "desc": "정공법으로 밀어붙이는 강력한 경영자" },
+    "alternatives": ["다크나이트", "카이저"]
+  },
+  "ESFJ": {
+    "title": "집정관",
+    "theme": { "ramp": "red", "fill": "#FCEBEB", "accent": "#791F1F", "icon": "groups" },
+    "desc": "분위기를 챙기며 모두를 살피는 살림꾼",
+    "image": "assets/images/jobs/pathfinder.png",
+    "primary": { "job": "패스파인더", "desc": "파티를 두루 챙기는 사교적 집정관" },
+    "alternatives": ["비숍", "메르세데스"]
+  },
+  "ISTP": {
+    "title": "장인",
+    "theme": { "ramp": "green", "fill": "#EAF3DE", "accent": "#27500A", "icon": "build" },
+    "desc": "필요한 순간 정확히 처리하는 냉철한 기술자",
+    "image": "assets/images/jobs/nightlord.png",
+    "primary": { "job": "나이트로드", "desc": "급소만 노리는 냉철한 암살 장인" },
+    "alternatives": ["신궁", "메카닉"]
+  },
+  "ISFP": {
+    "title": "모험가",
+    "theme": { "ramp": "green", "fill": "#EAF3DE", "accent": "#27500A", "icon": "explore" },
+    "desc": "감각에 따라 자유롭게 떠도는 방랑자",
+    "image": "assets/images/jobs/kain.png",
+    "primary": { "job": "카인", "desc": "고독하게 길을 걷는 자유로운 모험가" },
+    "alternatives": ["나이트워커", "라라"]
+  },
+  "ESTP": {
+    "title": "사업가",
+    "theme": { "ramp": "coral", "fill": "#FAECE7", "accent": "#712B13", "icon": "rocket_launch" },
+    "desc": "거침없이 정면돌파하는 행동파",
+    "image": "assets/images/jobs/kaiser.png",
+    "primary": { "job": "카이저", "desc": "압도적인 힘으로 정면돌파하는 사업가" },
+    "alternatives": ["제로", "아란"]
+  },
+  "ESFP": {
+    "title": "연예인",
+    "theme": { "ramp": "amber", "fill": "#FAEEDA", "accent": "#633806", "icon": "music_note" },
+    "desc": "화려한 무대 위 모두의 시선을 즐기는 스타",
+    "image": "assets/images/jobs/angelicbuster.png",
+    "primary": { "job": "엔젤릭버스터", "desc": "무대를 빛내는 화려한 연예인" },
+    "alternatives": ["키네시스", "아델"]
+  }
+}

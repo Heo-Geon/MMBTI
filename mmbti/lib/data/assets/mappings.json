@@ -2,10 +2,10 @@
   "INTJ": {
     "title": "전략가",
     "theme": { "ramp": "purple", "fill": "#EEEDFE", "accent": "#3C3489", "icon": "military_tech" },
-    "desc": "판을 읽고 설계하는 냉정한 솔로 플레이어",
-    "image": "assets/images/jobs/bishop.png",
-    "primary": { "job": "비숍", "desc": "판을 읽고 설계하는 전략 서포터" },
-    "alternatives": ["루미너스", "메르세데스"]
+    "desc": "소환수를 지휘하며 판을 설계하는 냉정한 솔로 플레이어",
+    "image": "assets/images/jobs/lethe.png",
+    "primary": { "job": "레테", "desc": "계약한 소환수를 지휘해 판을 설계하는 전략가" },
+    "alternatives": ["비숍", "루미너스"]
   },
   "INTP": {
     "title": "이론가",
@@ -13,7 +13,7 @@
     "desc": "메커니즘을 파고들어 최적해를 찾는 연구가",
     "image": "assets/images/jobs/kinesis.png",
     "primary": { "job": "키네시스", "desc": "독창적인 메커니즘을 연구하는 이론가" },
-    "alternatives": ["배틀메이지", "제논"]
+    "alternatives": ["레테", "배틀메이지"]
   },
   "ENTJ": {
     "title": "지휘관",
